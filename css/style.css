@@ -62,11 +62,6 @@ body {
 	transition-delay: 0.5s;*/
 	transition: all 0.2s ease 0.2s;	
 }
-/*.parent-element:hover {
-	background-color: red;
-}*/
-
-
 .child-element {
 	width: 150px;
 	height: 150px;
@@ -74,9 +69,9 @@ body {
 	position: absolute;
 	top:0;
 	left:0;
-	/*top:50%;
+	top:50%;
 	left: 50%;
-	transform: translate(-50%,-50%) rotate(45deg);*/
+	transform: translate(-50%,-50%) rotate(45deg);
 	animation: myanimation 2s infinite;
 }
 .read {
@@ -108,9 +103,9 @@ body {
 
 /*Keyframes*/
 @keyframes myanimation {
-   0%   {top:0; left:0; background: red; transform: translate(-50%,-50%)}
-  25%  {top: 0px; left: 500px;background: blue; transform: translate(-50%,-50%) rotate(90deg);}
-  50%  { top: 100px; left: 800px;background: yellow;transform: translate(-50%,-50%) rotate(45deg);}
-  75%  {top: 100px; left: 0px;background: green;transform:translate(-50%,-50%)}
-  100% { top: 0px; left: 0px; background: red; transform:translate(-50%,-50%)}
+   0%   {background: red; transform: translate(-50%,-50%)}
+  25%  {background: blue; transform: translate(-50%,-50%) rotate(90deg);}
+  50%  {background: yellow;transform: translate(-50%,-50%) rotate(45deg);}
+  75%  {background: green;transform:translate(-50%,-50%)}
+  100% {background: red; transform:translate(-50%,-50%)}
 }
